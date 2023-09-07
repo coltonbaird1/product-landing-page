@@ -18,7 +18,8 @@ body {
   height: 100px;
 }
 
-.nav-links {
+.nav-links,
+.footer-links {
   display: flex;
   justify-content: space-between;
   text-decoration: none;
@@ -79,4 +80,27 @@ button {
   border-radius: 5px;
   font-size: 16px;
   font-weight: bold;
+}
+
+.footer {
+  background-color: #000;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  color: #fff;
+}
+
+.footer-links a {
+  color: #fff;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo > img {
+  width: 100px;
+  height: 100px;
 }
