@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 /*Nav Bar Styles*/
@@ -51,4 +50,11 @@ a:visited {
   color: #fff;
   gap: 15px;
   padding-top: 45px;
+}
+
+/*Product info section*/
+.product-info {
+  height: 50vh;
+  margin: 100px;
+  color: #000;
 }
