@@ -58,3 +58,25 @@ a:visited {
   margin: 100px;
   color: #000;
 }
+
+.price-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  color: #000;
+}
+
+.price-options div {
+  border: 1px solid #000;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
