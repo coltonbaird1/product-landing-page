@@ -5,6 +5,7 @@ body {
   overflow: hidden;
 }
 
+/*Nav Bar Styles*/
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -28,14 +29,26 @@ body {
   margin: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 25px;
 }
 
 a {
   text-decoration: none;
-  border: 2px solid black;
 }
 
 a:visited {
   color: #000;
+}
+
+/*Call to action section */
+.call-to-action {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 25vh;
+  background-color: #000;
+  color: #fff;
+  gap: 15px;
+  padding-top: 45px;
 }
