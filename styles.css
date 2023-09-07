@@ -56,10 +56,22 @@ a:visited {
 /*Product info section*/
 .product-info {
   height: 50vh;
+  width: 75%;
   margin: 100px;
   color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
 }
 
+.product-info div {
+  background-color: #bebebe;
+  width: 100%;
+  text-align: center;
+}
+/*Product pricing section*/
 .price-options {
   display: flex;
   justify-content: space-between;
