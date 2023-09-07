@@ -13,6 +13,8 @@ body {
   align-items: center;
   background-color: #fff;
   color: #000;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .logo > img {
@@ -48,18 +50,50 @@ a:visited {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: 25vh;
+  height: 35vh;
   background-color: #000;
   color: #fff;
   gap: 15px;
   padding-top: 45px;
 }
 
+.cta-container {
+  background-color: #bebebe;
+  width: 40%;
+  height: 80%;
+  border-radius: 12px;
+  box-shadow: 10px 10px rgba(190, 190, 190, 0.5);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*make input field no look basic*/
+.cta-email {
+}
+
+.cta-header {
+  text-align: center;
+  margin: auto;
+}
+
+.cta-container input {
+  text-align: center;
+  margin: auto;
+}
+
+.cta-container button {
+  text-align: center;
+  margin: auto;
+}
+
 /*Product info section*/
 .product-info {
   height: 50vh;
   width: 75%;
-  margin: 100px;
+  margin-left: 150px;
   color: #000;
   display: flex;
   align-items: center;
@@ -76,14 +110,22 @@ a:visited {
 /*Product pricing section*/
 .price-options {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 25px;
   color: #000;
+  margin: 50px;
 }
 
 .price-options div {
-  border: 1px solid #000;
+  border: 5px solid #000;
+  width: 25%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
 }
 
 button {
@@ -97,24 +139,39 @@ button {
 }
 
 .footer {
-  background-color: #000;
+  background-color: #fff;
   width: 100%;
   height: 20%;
   display: flex;
-  color: #fff;
+  align-items: center;
+  justify-content: center;
+  color: #000;
 }
 
 .footer-links a {
-  color: #fff;
+  color: #000;
 }
 
 .footer-links {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 25px;
 }
 
 .footer-logo > img {
   width: 100px;
   height: 100px;
+}
+
+.video-container {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.seperator {
+  width: 60%;
+  height: 5px;
+  background-color: #fff;
 }
